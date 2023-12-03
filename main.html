@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Accessible Portfolio</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <header>
+    <h1 role="heading">My Accessible Portfolio</h1>
+    <nav role="navigation">
+      <ul role="list">
+        <li role="listitem"><a href="#about">About Me</a></li>
+        <li role="listitem"><a href="#projects">Projects</a></li>
+        <li role="listitem"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <section id="about">
+    <img src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Free-Download.png" height= 10px  alt="A picture of the author" role="img">
+    <p>A passionate individual dedicated to creating accessible web content. I believe in the power of technology to make the world a better place for everyone.</p>
+  </section>
+
+  <section id="projects">
+    <h2 role="heading">Projects</h2>
+    <ul role="list">
+      <li role="listitem">Accessible Blog Platform</li>
+      <li role="listitem">Inclusive E-commerce Website</li>
+      <li role="listitem">Interactive Learning Platform</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 role="heading">Contact Me</h2>
+    <p>Feel free to reach out to me via email at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+  </section>
 </body>
+
+</html>
+
 
 </html>
